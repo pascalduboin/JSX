@@ -1,7 +1,11 @@
 //	--------
-// 	Traitement et export en WebP
-//	(compressionLossy à 65%) depuis le dossier -export/-src
-//
+
+// Ce script automatise le traitement et l’exportation d’images en format WebP (compression avec perte à 65%) 
+// depuis un dossier source vers un dossier de destination sur le Bureau et ce en trois format diféérents
+// 1000px de large (version, de base, aucun suffixe))
+// 565px de large (version moyenne, suffixe “-md”)
+// 360px de large (version réduite, suffixe “-sm”)
+
 //	Pré-requis : Photoshop 23.6+
 //	Sur le Bureau, un dossier "-export" contenant un sous-dossier "-src" 
 //	avec vos images (.jpg, .jpeg, .png, .webp, .aiff)
